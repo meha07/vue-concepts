@@ -1,0 +1,31 @@
+button {
+    appearance: none;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    display: inline-flex;
+    padding: 9px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: white;
+    &:hover {
+        background-color: #e5e7eb;
+    }
+    &.theme-primary {
+        background-color: #2563eb;
+        border-color: transparent;
+        color: white;
+        &:hover {
+            background-color: #1d4ed8;
+        }
+    }
+    &.theme-red {
+        background-color: #dc2626;
+        border-color: transparent;
+        color: white;
+        &:hover {
+            background-color: #b71e1e;
+        }
+    }
+ }

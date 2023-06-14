@@ -1,0 +1,21 @@
+[
+    {
+        "id": "101",
+        "salutation": "Ms",
+        "first_name": "Meha",
+        "last_name": "Shah",
+        "addresses": [
+            {
+                "address": "gold coast"
+            },
+            {
+                "address": "gold coast 2"
+            }
+        ]
+    },
+    {
+        "id": "102",
+        "first_name": "K",
+        "last_name": "Dave"
+    }
+]
